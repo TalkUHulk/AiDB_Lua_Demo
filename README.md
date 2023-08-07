@@ -31,6 +31,36 @@ generate **libAiDBLua.so** in ai.deploy.box/build/lua/
 
 download [models](https://github.com/TalkUHulk/ai.deploy.box/releases/download/1.0.0/models-lite.zip) and unzip in aidb_lua_demo rename models, and put ai.deploy.box/extra、ai.deploy.box/config in aidb_lua_demo/extra、 aidb_lua_demo/config
 
+
+**folder structure**
+```
+aidb_lua_demo/
+├── json.lua
+├── base64.lua
+├── config
+    ├── mnn_config.yaml
+    ├── ncnn_config.yaml
+    .
+    .
+    .
+    └── onnx_config.yaml
+├── models
+    ├── onnx
+    ├── ncnn
+    ├── mnn
+    ├── tnn
+    ├── paddle
+    └── openvino   
+.
+.
+.
+└── extra
+    ├── ppocr_keys_v1.txt
+    .
+    .
+    └── imagenet-1k-id.txt
+```
+
 * modify sample
 
 replace package.cpath and image_path with your custom path, and init 'init_table' you wanted.
