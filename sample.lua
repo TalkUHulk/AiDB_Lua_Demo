@@ -1,4 +1,4 @@
-package.cpath = package.cpath .. ";./lib/libAiDBLua.dylib"
+package.cpath = package.cpath .. ";ai.deploy.box/build/lua/libAiDBLua.so"
 package.path = package.path .. ";./?.lua"
 
 local json = require "json"
@@ -62,7 +62,7 @@ if (ret ~= 0) then
 	print("Register failed! param:"..param)
 end
 
-local image_path = "./ocr.jpg"
+local image_path = "./test.jpg"
 
 imageBase64 = base64.encode(read_image(image_path))
 
