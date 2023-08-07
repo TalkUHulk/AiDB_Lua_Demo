@@ -1,4 +1,4 @@
-## aidb-Lua-demo
+## aidb-lua-demo
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1QuiJAutYAdn0MIOhGIk9JPPUwiVuWCFB?usp=drive_link)
 
